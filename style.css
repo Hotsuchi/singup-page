@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppin",sans-serif;
+}
+html,body{
+    font-size: 16px;
+    background: #045d5d;
+}
+.main{
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    width: 90%;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+form input{
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: 1.3rem;
+    background: #D2DDE2;
+}
+.register .rbtn{
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: 1.3rem;
+    background: #6F7BFF;
+    color: #fff;
+    font-weight: bolder;
+}
+form .tc{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form .tc input{
+    width: 1rem;
+}
